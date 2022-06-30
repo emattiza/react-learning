@@ -1,0 +1,15 @@
+tasks:
+  - init: yarn install
+    command: |
+      mv .env.local.example .env.local
+      bash .dev-scripts/run-frontend.sh
+
+vscode:
+  extensions:
+    - usernamehw.errorlens
+    - ecmel.vscode-html-css
+    - csstools.postcss
+    - esbenp.prettier-vscode
+    - bradlc.vscode-tailwindcss
+    - CoenraadS.bracket-pair-colorizer
+    - dbaeumer.vscode-eslint
